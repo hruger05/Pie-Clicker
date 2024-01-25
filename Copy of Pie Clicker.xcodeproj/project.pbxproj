@@ -1,0 +1,614 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7A4873EC2B62B472008A599E /* Copy_of_Pie_ClickerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A4873EB2B62B472008A599E /* Copy_of_Pie_ClickerApp.swift */; };
+		7A4873EE2B62B472008A599E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A4873ED2B62B472008A599E /* ContentView.swift */; };
+		7A4873F02B62B473008A599E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A4873EF2B62B473008A599E /* Assets.xcassets */; };
+		7A4873F42B62B473008A599E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A4873F32B62B473008A599E /* Preview Assets.xcassets */; };
+		7A4873FE2B62B473008A599E /* Copy_of_Pie_ClickerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A4873FD2B62B473008A599E /* Copy_of_Pie_ClickerTests.swift */; };
+		7A4874082B62B473008A599E /* Copy_of_Pie_ClickerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A4874072B62B473008A599E /* Copy_of_Pie_ClickerUITests.swift */; };
+		7A48740A2B62B473008A599E /* Copy_of_Pie_ClickerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A4874092B62B473008A599E /* Copy_of_Pie_ClickerUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7A4873FA2B62B473008A599E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7A4873E02B62B472008A599E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A4873E72B62B472008A599E;
+			remoteInfo = "Copy of Pie Clicker";
+		};
+		7A4874042B62B473008A599E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7A4873E02B62B472008A599E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A4873E72B62B472008A599E;
+			remoteInfo = "Copy of Pie Clicker";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7A4873E82B62B472008A599E /* Copy of Pie Clicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Copy of Pie Clicker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A4873EB2B62B472008A599E /* Copy_of_Pie_ClickerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Copy_of_Pie_ClickerApp.swift; sourceTree = "<group>"; };
+		7A4873ED2B62B472008A599E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7A4873EF2B62B473008A599E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7A4873F12B62B473008A599E /* Copy_of_Pie_Clicker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Copy_of_Pie_Clicker.entitlements; sourceTree = "<group>"; };
+		7A4873F32B62B473008A599E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7A4873F92B62B473008A599E /* Copy of Pie ClickerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Copy of Pie ClickerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A4873FD2B62B473008A599E /* Copy_of_Pie_ClickerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Copy_of_Pie_ClickerTests.swift; sourceTree = "<group>"; };
+		7A4874032B62B473008A599E /* Copy of Pie ClickerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Copy of Pie ClickerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A4874072B62B473008A599E /* Copy_of_Pie_ClickerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Copy_of_Pie_ClickerUITests.swift; sourceTree = "<group>"; };
+		7A4874092B62B473008A599E /* Copy_of_Pie_ClickerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Copy_of_Pie_ClickerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7A4873E52B62B472008A599E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A4873F62B62B473008A599E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A4874002B62B473008A599E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7A4873DF2B62B472008A599E = {
+			isa = PBXGroup;
+			children = (
+				7A4873EA2B62B472008A599E /* Copy of Pie Clicker */,
+				7A4873FC2B62B473008A599E /* Copy of Pie ClickerTests */,
+				7A4874062B62B473008A599E /* Copy of Pie ClickerUITests */,
+				7A4873E92B62B472008A599E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7A4873E92B62B472008A599E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7A4873E82B62B472008A599E /* Copy of Pie Clicker.app */,
+				7A4873F92B62B473008A599E /* Copy of Pie ClickerTests.xctest */,
+				7A4874032B62B473008A599E /* Copy of Pie ClickerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7A4873EA2B62B472008A599E /* Copy of Pie Clicker */ = {
+			isa = PBXGroup;
+			children = (
+				7A4873EB2B62B472008A599E /* Copy_of_Pie_ClickerApp.swift */,
+				7A4873ED2B62B472008A599E /* ContentView.swift */,
+				7A4873EF2B62B473008A599E /* Assets.xcassets */,
+				7A4873F12B62B473008A599E /* Copy_of_Pie_Clicker.entitlements */,
+				7A4873F22B62B473008A599E /* Preview Content */,
+			);
+			path = "Copy of Pie Clicker";
+			sourceTree = "<group>";
+		};
+		7A4873F22B62B473008A599E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7A4873F32B62B473008A599E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7A4873FC2B62B473008A599E /* Copy of Pie ClickerTests */ = {
+			isa = PBXGroup;
+			children = (
+				7A4873FD2B62B473008A599E /* Copy_of_Pie_ClickerTests.swift */,
+			);
+			path = "Copy of Pie ClickerTests";
+			sourceTree = "<group>";
+		};
+		7A4874062B62B473008A599E /* Copy of Pie ClickerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7A4874072B62B473008A599E /* Copy_of_Pie_ClickerUITests.swift */,
+				7A4874092B62B473008A599E /* Copy_of_Pie_ClickerUITestsLaunchTests.swift */,
+			);
+			path = "Copy of Pie ClickerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7A4873E72B62B472008A599E /* Copy of Pie Clicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A48740D2B62B473008A599E /* Build configuration list for PBXNativeTarget "Copy of Pie Clicker" */;
+			buildPhases = (
+				7A4873E42B62B472008A599E /* Sources */,
+				7A4873E52B62B472008A599E /* Frameworks */,
+				7A4873E62B62B472008A599E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Copy of Pie Clicker";
+			productName = "Copy of Pie Clicker";
+			productReference = 7A4873E82B62B472008A599E /* Copy of Pie Clicker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7A4873F82B62B473008A599E /* Copy of Pie ClickerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A4874102B62B473008A599E /* Build configuration list for PBXNativeTarget "Copy of Pie ClickerTests" */;
+			buildPhases = (
+				7A4873F52B62B473008A599E /* Sources */,
+				7A4873F62B62B473008A599E /* Frameworks */,
+				7A4873F72B62B473008A599E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7A4873FB2B62B473008A599E /* PBXTargetDependency */,
+			);
+			name = "Copy of Pie ClickerTests";
+			productName = "Copy of Pie ClickerTests";
+			productReference = 7A4873F92B62B473008A599E /* Copy of Pie ClickerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7A4874022B62B473008A599E /* Copy of Pie ClickerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A4874132B62B473008A599E /* Build configuration list for PBXNativeTarget "Copy of Pie ClickerUITests" */;
+			buildPhases = (
+				7A4873FF2B62B473008A599E /* Sources */,
+				7A4874002B62B473008A599E /* Frameworks */,
+				7A4874012B62B473008A599E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7A4874052B62B473008A599E /* PBXTargetDependency */,
+			);
+			name = "Copy of Pie ClickerUITests";
+			productName = "Copy of Pie ClickerUITests";
+			productReference = 7A4874032B62B473008A599E /* Copy of Pie ClickerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7A4873E02B62B472008A599E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					7A4873E72B62B472008A599E = {
+						CreatedOnToolsVersion = 15.1;
+					};
+					7A4873F82B62B473008A599E = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 7A4873E72B62B472008A599E;
+					};
+					7A4874022B62B473008A599E = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 7A4873E72B62B472008A599E;
+					};
+				};
+			};
+			buildConfigurationList = 7A4873E32B62B472008A599E /* Build configuration list for PBXProject "Copy of Pie Clicker" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7A4873DF2B62B472008A599E;
+			productRefGroup = 7A4873E92B62B472008A599E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7A4873E72B62B472008A599E /* Copy of Pie Clicker */,
+				7A4873F82B62B473008A599E /* Copy of Pie ClickerTests */,
+				7A4874022B62B473008A599E /* Copy of Pie ClickerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7A4873E62B62B472008A599E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A4873F42B62B473008A599E /* Preview Assets.xcassets in Resources */,
+				7A4873F02B62B473008A599E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A4873F72B62B473008A599E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A4874012B62B473008A599E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7A4873E42B62B472008A599E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A4873EE2B62B472008A599E /* ContentView.swift in Sources */,
+				7A4873EC2B62B472008A599E /* Copy_of_Pie_ClickerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A4873F52B62B473008A599E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A4873FE2B62B473008A599E /* Copy_of_Pie_ClickerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A4873FF2B62B473008A599E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A4874082B62B473008A599E /* Copy_of_Pie_ClickerUITests.swift in Sources */,
+				7A48740A2B62B473008A599E /* Copy_of_Pie_ClickerUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7A4873FB2B62B473008A599E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7A4873E72B62B472008A599E /* Copy of Pie Clicker */;
+			targetProxy = 7A4873FA2B62B473008A599E /* PBXContainerItemProxy */;
+		};
+		7A4874052B62B473008A599E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7A4873E72B62B472008A599E /* Copy of Pie Clicker */;
+			targetProxy = 7A4874042B62B473008A599E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		7A48740B2B62B473008A599E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7A48740C2B62B473008A599E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		7A48740E2B62B473008A599E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Copy of Pie Clicker/Copy_of_Pie_Clicker.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Copy of Pie Clicker/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Hudson-Ruger.Copy-of-Pie-Clicker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7A48740F2B62B473008A599E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Copy of Pie Clicker/Copy_of_Pie_Clicker.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Copy of Pie Clicker/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Hudson-Ruger.Copy-of-Pie-Clicker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7A4874112B62B473008A599E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Hudson-Ruger.Copy-of-Pie-ClickerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Copy of Pie Clicker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Copy of Pie Clicker";
+			};
+			name = Debug;
+		};
+		7A4874122B62B473008A599E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Hudson-Ruger.Copy-of-Pie-ClickerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Copy of Pie Clicker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Copy of Pie Clicker";
+			};
+			name = Release;
+		};
+		7A4874142B62B473008A599E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Hudson-Ruger.Copy-of-Pie-ClickerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Copy of Pie Clicker";
+			};
+			name = Debug;
+		};
+		7A4874152B62B473008A599E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Hudson-Ruger.Copy-of-Pie-ClickerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Copy of Pie Clicker";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7A4873E32B62B472008A599E /* Build configuration list for PBXProject "Copy of Pie Clicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A48740B2B62B473008A599E /* Debug */,
+				7A48740C2B62B473008A599E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A48740D2B62B473008A599E /* Build configuration list for PBXNativeTarget "Copy of Pie Clicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A48740E2B62B473008A599E /* Debug */,
+				7A48740F2B62B473008A599E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A4874102B62B473008A599E /* Build configuration list for PBXNativeTarget "Copy of Pie ClickerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A4874112B62B473008A599E /* Debug */,
+				7A4874122B62B473008A599E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A4874132B62B473008A599E /* Build configuration list for PBXNativeTarget "Copy of Pie ClickerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A4874142B62B473008A599E /* Debug */,
+				7A4874152B62B473008A599E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7A4873E02B62B472008A599E /* Project object */;
+}
